@@ -1,6 +1,6 @@
 ############################# English ############################
 [en]
-languageName = "🇬🇧"
+languageName = "English 🇬🇧"
 title = "PPME Demo Website 001"
 contentDir = "content/english" # content/english
 weight = 1
@@ -8,7 +8,7 @@ weight = 1
 footer_menu_left = "PPME Den Haag"
 footer_menu_middle = "Activities"
 footer_menu_right = "Services"
-footer_content = "Yes, we can make beautiful website without WordPress"
+footer_content = "Yes, we can make (relatively) beautiful website without WordPress"
 # copyright
 copyright = "PPME Den Haag IT Division 2022, based on [Bigspring-Light](https://github.com/themefisher/bigspring-light) Hugo Design"
 
@@ -16,7 +16,7 @@ copyright = "PPME Den Haag IT Division 2022, based on [Bigspring-Light](https://
 
 ############################# Netherlands ############################
 [nl]
-languageName = "🇳🇱"
+languageName = "Nederland 🇳🇱"
 title = "PPME Demo Website 001"
 contentDir = "content/nl" # content/german
 weight = 2

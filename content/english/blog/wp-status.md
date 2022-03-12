@@ -1,8 +1,8 @@
 ---
-title: "Adversus is a web-based dialer and practical CRM solution"
-date: 2020-04-18T10:07:21+06:00
+title: "Technical Status of Wordpress Site"
+date: 2022-03-18T10:07:21+06:00
 # post image
-image: "images/blog/post-5.jpg"
+image: "images/wordpress-1.jpg"
 # post type (regular/featured)
 type: "regular"
 # meta description
