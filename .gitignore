@@ -77,6 +77,8 @@ bin-release/
 [Oo]bj/ # FlashDevelop obj
 [Bb]in/ # FlashDevelop bin
 
+#resources/_gen
+
 # Other files and folders
 .settings/
 

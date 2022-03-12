@@ -1,12 +1,12 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "Lassen Sie uns Ihre kritischen Herausforderungen bei der Website <br> Entwicklung lösen"
-  image : "images/banner-art.svg"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus"
+  title : "PPME Den Haag"
+  image : "images/front-banner-2.jpg"
+  content : "12 april 1971. De geboortedag van PPME. Een Islamitische organisatie opgericht door een groep van ongeveer twintig Indonesische studenten die in Nederland en het toenmalige West-Duitsland woonden. Deze groep, waar de 4e president van Indonesië Abdurrachman Wahid, onderdeel van was, kwam geregeld samen in Nederland om gezamenlijk hun geloof te belijden. Van daaruit ontstond een verlangen om iets op te richten om belangen van moslims in Nederland te behartigen."
   button:
     enable : true
-    label : "Contact Us"
+    label : "Onze Activiteiten"
     link : "contact/"
 
 ##################### Feature ##########################

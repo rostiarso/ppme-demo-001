@@ -1,24 +1,26 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "Assalamu'alaikum"
-  image : "images/front-banner.jpg"
-  content : "Welcome to the our Indonesian Moslem Community in The Hague"
-#  content : "On a spring day April 12th 1971 in The Hague, twenty individuals got together. <br/>One of them is Abdurrachman Wahid (Gus Dur), the #fourth President of Republik Indonesia 🇮🇩. <br/>This meeting gave birth to organization of Persatuan Pemuda Muslim se-Eropa (PPME).<br/>Since then, #PPME have added multi-cultural Moslem community in the Netherlands 🇳🇱 along with other communities."
+  title : "PPME Den Haag"
+  image : "images/front-banner-2.jpg"
+#  content : "Welcome to the our Indonesian Moslem Community in The Hague"
+  content : "On a spring day April 12th 1971 in The Hague, twenty individuals got together. <br/>One of them is Abdurrachman Wahid (Gus Dur), the #fourth President of Republik Indonesia 🇮🇩. <br/>This meeting gave birth to organization of Persatuan Pemuda Muslim se-Eropa (PPME).<br/>Since then, #PPME have added multi-cultural Moslem community in the Netherlands 🇳🇱 along with other communities."
   button:
     enable : true
-    label : "Join Us"
-    link : "contact/"
+    label : "Our Activities"
+### Warning - this links to anchor below feature title - make sure they are connected    
+    link : "#our-activities-and-services"
 
 ##################### Feature ##########################
 feature:
   enable : true
-  title : "Something You Need To Know"
+### Warning - this title links to anchor above - make sure they are connected    
+  title : "## Our Activities and Services"
   feature_item:
     # feature item loop
-    - name : "Dakwah"
+    - name : "Islamic Marriage"
       icon : "fas fa-mosque"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "Marriage in Islam is a form of worship. <br>By entering into a marriage you fulfill half of your religion."
       
     # feature item loop
     - name : "Object Oriented"

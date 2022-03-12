@@ -2,7 +2,7 @@
 
 <!-- banner -->
 {{ with .Params.banner }}
-<section class="banner">
+<section class="banner" style="padding: 50px 0 50px;">
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
@@ -14,7 +14,7 @@
         {{ end }}
         {{ end }}
 
-        {{with .image}}<img src="{{ . | relURL }}" alt="" class="img-fluid mt-5" width="800px">{{end}}
+        {{with .image}}<img src="{{ . | relURL }}" alt="" class="img-fluid mt-5" width="750px"  style="border-radius: 10px;">{{end}}
       </div>
     </div>
   </div>
@@ -27,13 +27,13 @@
 {{ if .enable }}
 <section class="section bg-light">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 text-center">
+    <div class="row justify-content-center ">
+      <div class="col-12 text-center ">
         <h2 class="section-title">{{ .title | markdownify }}</h2>
       </div>
       {{ range .feature_item }}
-      <div class="col-md-4 col-sm-6 mb-4">
-        <div class="feature-card text-center">
+      <div class="col-md-4 col-sm-6 mb-4 ">
+        <div class="feature-card text-center h-100">
           <i class="{{.icon}} mb-3"></i>
           <h4 class="mb-2">{{ .name | title }}</h4>
           <p>{{ .content | markdownify }}</p>
