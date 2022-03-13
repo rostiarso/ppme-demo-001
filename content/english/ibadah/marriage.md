@@ -6,7 +6,7 @@ image: "images/nikah.webp"
 # post type (regular/featured)
 type: "featured"
 # meta description
-description: "This is meta description"
+description: "Marriage"
 # post draft
 draft: false
 ---
