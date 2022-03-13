@@ -26,4 +26,4 @@ With the help of mas Ferry, the following is completed:
 
 
 Still need to be discussed and may introduce cost:
-- [ ] TLS certificate need to be set to allow secure connection, for ppmedenghaag.nl, www.ppmedenhaag.nl and webmail.ppmedenhaag.nl. Can either be applied by Wildcard or SAN certificate.
+- [ ] TLS certificate need to be set to allow secure connection, for ppmedenhaag.nl, www.ppmedenhaag.nl and webmail.ppmedenhaag.nl. Can either be applied by Wildcard or SAN certificate.
