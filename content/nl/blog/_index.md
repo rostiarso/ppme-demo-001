@@ -1,7 +1,7 @@
 ---
-title: "Neuigkeiten"
+title: "Laatste Update"
 subtitle: ""
 # meta description
-description: "Dies ist die Metabeschreibung"
+description: "Laatste update"
 draft: false
 ---

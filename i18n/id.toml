@@ -1,0 +1,23 @@
+[readmore]
+other = "Teruskan Baca"
+
+[translations]
+other="Terjemahan"
+
+[error404]
+other = "Mohon maaf halaman yang anda cari tidak tersedia."
+
+[yourname]
+other = "Nama Anda"
+
+[youremail]
+other = "Email Anda"
+
+[subject]
+other = "Subyek"
+
+[yourmessage]
+other = "Pesan Anda"
+
+[sendnow]
+other = "Kirim"

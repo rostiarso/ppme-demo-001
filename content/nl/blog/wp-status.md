@@ -12,9 +12,3 @@ draft: false
 ---
 
 We have contacted the Indonesian colleagues that helped to create/deploy the current Wordpress website.
-These are the requests/questions that we raised:
-* TLS certificate need to be set to allow secure connection
-* Admin email can send outbound but cannot receive email
-* If admin email can receive email, we would then request additional info@ email
-
-So far, we have not received any update from the team.

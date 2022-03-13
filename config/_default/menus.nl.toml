@@ -78,8 +78,8 @@ url = "contact/"
 weight = 4
 
 [[main]]
-name = "FAQ"
-url = "faq/"
+name = "Blog"
+url = "blog/"
 weight = 5
 
 # footer menu left

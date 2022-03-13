@@ -33,7 +33,7 @@ We can collaborate and continue to build the website with ensurance of full back
 * Content Delivery Network (CDN) by default, ensuring reliable performance from global users
 * Main page with simple interface, half the content still in mock-up stage.
 * Navigation menu available 
-* Multilingual. [EN](/) and [NL](/nl/) selectable from navigation menu and can be extended to ID.
+* Multilingual. [EN](/) and [NL](/nl/) selectable from navigation menu and can be extended to ID. Example is the marriage page in [English](https://ppme-demo-001.web.app/ibadah/marriage/) and [Nederland](https://ppme-demo-001.web.app/nl/ibadah/marriage/) version
 
 #### Todo Features
 
