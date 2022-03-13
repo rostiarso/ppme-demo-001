@@ -3,6 +3,7 @@
   padding: 50px 0 50px;
 }
 
+/*
 .feature-card {
   border-radius: 10px;
   padding: 20px;
@@ -18,6 +19,17 @@
     color: $primary-color;
     display: inline-block;
   }
+}
+*/
+.feature-card {
+  
+  transition: .2s ease;
+  background-color: $white;
+
+  &:hover {
+    @extend .shadow;
+  }
+
 }
 
 .footer-list a {

@@ -34,9 +34,9 @@
       {{ range .feature_item }}
       <div class="col-md-4 col-sm-6 mb-4 ">
         <div class="feature-card text-center h-100">
-          <i class="{{.icon}} mb-3"></i>
-          <h4 class="mb-2">{{ .name | title }}</h4>
-          <p>{{ .content | markdownify }}</p>
+          <img class="card-img-center" style="width: 100%; object-fit: cover" src="{{.image}}" alt="Card image cap">
+          <h4 class="mt-2">{{ .name | title }}</h4>
+          <p class="px-3">{{ .content | markdownify }}</p>
         </div>
       </div>
       {{ end }}

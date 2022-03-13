@@ -18,34 +18,20 @@ feature:
   title : "## Our Activities and Services"
   feature_item:
     # feature item loop
-    - name : "Islamic Marriage"
-      icon : "fas fa-mosque"
-      content : "Marriage in Islam is a form of worship. <br>By entering into a marriage you fulfill half of your religion."
+    - name : "Qur'an Lessons"
+      image : "/images/Belajar-Quran.jpg"
+      content : "We divide the Qur'an lessons* for children and adults."
       
     # feature item loop
-    - name : "Object Oriented"
-      icon : "fas fa-object-group"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    - name : "Al Moeminum"
+      image : "/images/Al-Moeminum.jpg"
+      content : "Although the PPME has Indonesian origins, thanks to mixed marriages and family extensions, we also have a Dutch group within the association: Al Moe'minoen."
       
     # feature item loop
-    - name : "24h Service"
-      icon : "fas fa-user-clock"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    - name : "Indonesian Gathering"
+      image : "/images/MYTI.jpg"
+      content : "The PPME was founded in the 1970s by a group of Islamic Indonesian students. To this day you can taste the atmosphere and see the customs that are typical of Indonesia and Indonesians."
       
-    # feature item loop
-    - name : "Value For Money"
-      icon : "fas fa-heart"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      
-    # feature item loop
-    - name : "Faster Response"
-      icon : "fas fa-tachometer-alt"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      
-    # feature item loop
-    - name : "Cloud Support"
-      icon : "fas fa-cloud"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
       
 
 

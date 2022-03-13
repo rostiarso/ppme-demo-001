@@ -291,15 +291,27 @@ textarea.form-control {
 .banner {
   padding: 50px 0 50px; }
 
+/*
 .feature-card {
   border-radius: 10px;
   padding: 20px;
   transition: .2s ease;
-  background-color: #fff; }
-  .feature-card svg, .feature-card i {
+  background-color: $white;
+
+  &:hover {
+    @extend .shadow;
+  }
+
+  svg,i {
     font-size: 30px;
-    color: #0AA8A7;
-    display: inline-block; }
+    color: $primary-color;
+    display: inline-block;
+  }
+}
+*/
+.feature-card {
+  transition: .2s ease;
+  background-color: #fff; }
 
 .footer-list a {
   display: block;

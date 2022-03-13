@@ -8,7 +8,7 @@ weight = 1
 footer_menu_left = "PPME Den Haag"
 footer_menu_middle = "Activities"
 footer_menu_right = "Services"
-footer_content = "Yes, we can make (relatively) beautiful website without WordPress"
+footer_content = "Persatuan Pemuda Muslim se-Eropa"
 # copyright
 copyright = "PPME Den Haag IT Division 2022, based on [Bigspring-Light](https://github.com/themefisher/bigspring-light) Hugo Design"
 
@@ -24,6 +24,6 @@ weight = 2
 footer_menu_left = "PPME Den Haag"
 footer_menu_middle = "Activities"
 footer_menu_right = "Services"
-footer_content = "Ja, we kunnen een prachtige website maken zonder WordPress"
+footer_content = "Persatuan Pemuda Muslim se-Eropa"
 # copyright
 copyright = "PPME Den Haag IT Division 2022, gebaseerd op [Bigspring-Light](https://github.com/themefisher/bigspring-light) Hugo Design"

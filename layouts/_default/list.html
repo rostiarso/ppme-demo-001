@@ -3,8 +3,11 @@
 {{ partial "page-header.html" . }}
 
 <!-- checking blog -->
-{{ if or (or (eq .Section "post") (eq .Section "blog") (eq .Section "dakwah") (eq .Section "ibadah") (eq .Type site.Params.blogCategoryType)) (or (eq .Section "categories") (eq .Section "tags") )}}
 
+<!--
+  Disable to allow dakwah, ibadah and other contents to be rendered as list
+{{ if or (or (eq .Section "post") (eq .Section "blog") (eq .Section "dakwah") (eq .Section "ibadah") (eq .Type site.Params.blogCategoryType)) (or (eq .Section "categories") (eq .Section "tags") )}}
+-->
 <section class="section">
   <div class="container">
     <div class="row">
@@ -47,6 +50,9 @@
 </section>
 
 <!-- regular page -->
+
+<!-- disabled 20220313
+
 {{ else }}
 <section class="section">
   <div class="container">
@@ -59,4 +65,5 @@
 </section>
 {{ end }}
 
+-->
 {{ end }}

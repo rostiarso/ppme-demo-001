@@ -12,37 +12,22 @@ banner:
 ##################### Feature ##########################
 feature:
   enable : true
-  title : "Something You Need To Know"
+  title : "Dakwah en Ibadah"
   feature_item:
     # feature item loop
-    - name : "Clean Code"
-      icon : "fas fa-code"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    - name : "Qur'an Lessons"
+      image : "/images/Belajar-Quran.jpg"
+      content : "We divide the Qur'an lessons* for children and adults."
       
     # feature item loop
-    - name : "Object Oriented"
-      icon : "fas fa-object-group"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    - name : "Al Moeminum"
+      image : "/images/Al-Moeminum.jpg"
+      content : "Although the PPME has Indonesian origins, thanks to mixed marriages and family extensions, we also have a Dutch group within the association: Al Moe'minoen."
       
     # feature item loop
-    - name : "24h Service"
-      icon : "fas fa-user-clock"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      
-    # feature item loop
-    - name : "Value For Money"
-      icon : "fas fa-heart"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      
-    # feature item loop
-    - name : "Faster Response"
-      icon : "fas fa-tachometer-alt"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      
-    # feature item loop
-    - name : "Cloud Support"
-      icon : "fas fa-cloud"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    - name : "Indonesian Gathering"
+      image : "/images/MYTI.jpg"
+      content : "The PPME was founded in the 1970s by a group of Islamic Indonesian students. To this day you can taste the atmosphere and see the customs that are typical of Indonesia and Indonesians."
       
 
 
