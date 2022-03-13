@@ -2,7 +2,7 @@
 title: "Islamiitisch Trouwen"
 date: 2022-03-12T10:07:21+06Z
 # post image
-image: "images/nikah.jpg"
+image: "images/nikah.webp"
 # post type (regular/featured)
 type: "featured"
 # meta description

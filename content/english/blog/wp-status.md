@@ -2,7 +2,7 @@
 title: "Technical Status of Wordpress Site"
 date: 2022-03-12
 # post image
-image: "images/wordpress-1.jpg"
+image: "images/wordpress-1.webp"
 # post type (regular/featured)
 type: "regular"
 # meta description

@@ -2,7 +2,7 @@
 title: "Initial Mockup of the PPME Demo Website"
 date: 2022-03-12
 # post image
-image: "images/mockup.jpg"
+image: "images/mockup.webp"
 # post type (regular/featured)
 type: "featured"
 # meta description
