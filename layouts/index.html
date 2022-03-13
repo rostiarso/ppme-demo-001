@@ -1,5 +1,8 @@
 {{ define "main" }}
 
+
+{{ $data := index site.Data site.Language.Lang }}
+
 <!-- banner -->
 {{ with .Params.banner }}
 <section class="banner" style="padding: 50px 0 50px;">
@@ -33,7 +36,7 @@
       </div>
       {{ range .feature_item }}
       <div class="col-md-4 col-sm-6 mb-4 ">
-        <div class="feature-card text-center h-100">
+        <div class="card text-center h-100">
           <img class="card-img-center" style="width: 100%; object-fit: cover" src="{{.image}}" alt="Card image cap">
           <h4 class="mt-2">{{ .name | title }}</h4>
           <p class="px-3">{{ .content | markdownify }}</p>
@@ -46,6 +49,37 @@
 {{ end }}
 {{ end }}
 <!-- /feature -->
+
+<section class="section bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.event.title }}</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <div>
+            <a href="{{`event` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block text-nowrap">{{ i18n "readmore" }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <!-- event -->
+      {{ range first 3 (where site.RegularPages "Type" "event")}}
+      <div class="col-md-4 col-sm-6 mb-4">
+        {{ .Render "event" }}
+      </div>
+      {{ end }}
+    </div>
+    <!-- mobile see all button -->
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="{{`event` | relLangURL }}" class="btn btn-sm btn-outline-primary d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!-- service -->
 {{ with .Params.service }}
