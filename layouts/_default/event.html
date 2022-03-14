@@ -16,6 +16,5 @@
   <img class="card-img-center" style="width: 100%; object-fit: cover" src="{{ .Params.image | relURL }}" alt="Card image cap">
   <h4 class="px-3 text-left"><a href="{{ .Permalink }}">{{ .Title }}</h4>
   <p class="px-3 text-left">{{ .Params.Location | markdownify }}</p>
-  <p class="px-3 text-left">{{ .Date.Format "January 2, 2006" }}</p>
-  <p class="px-3 text-left">{{ .Date.Format "15:04: CET" }}</p>
+  <p class="px-3 text-left"><i class="fas fa-calendar"></i>&nbsp;{{ .Date.Format "January 2, 2006" }}&nbsp;-&nbsp;{{ .Date.Format "15:04 CET" }}</p>
 </div>
